@@ -1,5 +1,9 @@
-print("Hello World!")
+def func(num1,num2):
+    return num1 % num2 == 0
 
-print("These are new local change")
+num1,num2 = int(input()),int(input())
 
-print("These are second local changes")
+if func:
+    print("делится")
+else:
+    print("не делится")
